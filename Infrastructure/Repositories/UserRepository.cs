@@ -15,6 +15,6 @@ namespace Infrastructure.Repositoies
 		}
 
 		public Task<User?> GetUserByEmail(string email) =>
-			dbContext.Users.AsQueryable().FirstOrDefaultAsync(x => x.Email == email);
+			dbContext.Users.FirstOrDefaultAsync(x => x.Email == email);
 	}
 }
