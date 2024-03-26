@@ -50,3 +50,7 @@ Then you would need to execute the following steps:
 4. Make sure to configure your AWS ECR correctly.
 
 If you don't want to use it, just delete the .github folder.
+
+## Ideas
+You can use EmitMapper (run-time mapping, which makes it really fast) which is very simple and easy to use, to map your classes.  
+https://github.com/netniubility/EmitMapper
